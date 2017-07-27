@@ -870,8 +870,8 @@ svg {
 
 .surroundings,
 .levels {
-	-webkit-transform: rotateX(70deg) rotateZ(-45deg) translateZ(-15vmin);
-	transform: rotateX(70deg) rotateZ(-45deg) translateZ(-15vmin);
+	-webkit-transform: rotateX(60deg) rotateZ(-45deg) translateZ(-15vmin);
+	transform: rotateX(60deg) rotateZ(-45deg) translateZ(-15vmin);
 }
 
 .level {
