@@ -1791,9 +1791,9 @@ button.boxbutton.boxbutton--dark.open-search {
     }
 
     .content__intro div {
-        padding: 5px;
+        padding: 6px 5px;
         font-size: 12px;
-        width: 22%;
+        width: 25%;
         border-bottom: 1px solid #ebebeb;
         margin: 0 8px;
     }
