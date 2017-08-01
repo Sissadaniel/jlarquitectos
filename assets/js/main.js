@@ -40,6 +40,7 @@ $(document).ready(function () {
     new ScrollMagic.Scene({
             triggerElement: '.section--developments',
             duration: 0,
+            reverse: false
         })
     .setClassToggle(".department-content", "appear")
     .addTo(controller);
@@ -47,6 +48,7 @@ $(document).ready(function () {
     new ScrollMagic.Scene({
             triggerElement: '.section--features',
             duration: 0,
+            reverse: false
         })
     .setClassToggle(".svg--feature", "draw")
     .addTo(controller)
