@@ -81,4 +81,9 @@ $(document).ready(function () {
         items: 1
     });
 
+    $('.js-video').click(function() {
+      $('video.video').get(0).play();
+      $('.modal').css('display', 'block');
+    });
+
 });
