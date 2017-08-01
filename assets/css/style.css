@@ -1689,6 +1689,27 @@ button.boxbutton.boxbutton--dark.open-search {
   .department, .feature {
     width: 45%;
   }
+  .contact-text {
+      width: 100%;
+      display: block;
+      margin-right: 0;
+  }
+
+  .contact-form {
+      width: 100%;
+      float: none;
+  }
+
+  form input, form textarea {
+      width: 100% !important;
+      margin-bottom: 10px;
+      font-size: 18px;
+      padding: 15px;
+      height: 150px;
+  }
+      form input, form textarea:nth-child(5) {
+      height: 50px;
+  }
 
 }
 
@@ -1724,28 +1745,6 @@ button.boxbutton.boxbutton--dark.open-search {
     .section--developments h2, .section--conoce h2, .section--features h2, .status-content h2 {
         font-size: 30px;
         text-align: center;
-    }
-
-    .contact-text {
-        width: 100%;
-        display: block;
-        margin-right: 0;
-    }
-
-    .contact-form {
-        width: 100%;
-        float: none;
-    }
-
-    form input, form textarea {
-        width: 100% !important;
-        margin-bottom: 10px;
-        font-size: 18px;
-        padding: 15px;
-        height: 150px;
-    }
-        form input, form textarea:nth-child(5) {
-        height: 50px;
     }
 
     .contact-info a {
