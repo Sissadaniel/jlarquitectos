@@ -63,6 +63,14 @@ $(document).ready(function () {
         svg.draw();
     });
 
+    $('.owl-carousel.autoheight').owlCarousel({
+      items:1,
+      margin:10,
+      autoHeight:true,
+      dots: false,
+      nav: false,
+    });
+
     // carousel
     $(".owl-carousel").owlCarousel({
         dots: true,
@@ -70,6 +78,5 @@ $(document).ready(function () {
         video:true,
         items: 1
     });
-
 
 });
