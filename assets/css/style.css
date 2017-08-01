@@ -1684,6 +1684,14 @@ button.boxbutton.boxbutton--dark.open-search {
     margin-bottom: -3px;
 }
 
+@media screen and (max-width: 800px) {
+
+  .department, .feature {
+    width: 45%;
+  }
+
+}
+
 
 @media screen and (max-width: 767px) {
 
@@ -1754,13 +1762,6 @@ button.boxbutton.boxbutton--dark.open-search {
         display: none;
     }
 
-    .departments, .features {
-        display: block;
-    }
-
-    .department, .feature {
-        width: 100%;
-    }
 
     .button-group .button {
         display: block;
@@ -1863,4 +1864,15 @@ button.boxbutton.boxbutton--dark.open-search {
     background-repeat: repeat;
     background-position: 0 34px;
     background-size: 1000px
+}
+
+
+@media screen and (max-width: 560px) {
+  .departments, .features {
+      display: block;
+  }
+
+  .department, .feature {
+      width: 100%;
+  }
 }
