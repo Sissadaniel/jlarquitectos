@@ -1707,10 +1707,11 @@ button.boxbutton.boxbutton--dark.open-search {
         height: auto;
         background: url(../img/propiedad.png) no-repeat;
         color: #fff;
-        background-size: cover;
-        z-index: 99;
+        background-size: cover !important;
         position: relative;
         display: block;
+        padding: 1px;
+        margin-bottom: 2em;
     }
 
     .section--developments h2, .section--conoce h2, .section--features h2, .status-content h2 {
