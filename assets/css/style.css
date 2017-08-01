@@ -1811,9 +1811,9 @@ button.boxbutton.boxbutton--dark.open-search {
     }
 
     svg.icon.icon--cross {
-    width: 20px;
-    height: 20px;
-}
+      width: 20px;
+      height: 20px;
+    }
 
     .size span:last-child {
         font-size: 13px;
@@ -1826,6 +1826,7 @@ button.boxbutton.boxbutton--dark.open-search {
 
     .content__item-title {
         font-size: 1.3em;
+        margin-top: 4.5em;
     }
 
     .levels {
@@ -1841,6 +1842,10 @@ button.boxbutton.boxbutton--dark.open-search {
         width: 67%;
         top: -47%;
         left: 34%;
+    }
+
+    .content--open {
+      height: 50vh
     }
 }
 
