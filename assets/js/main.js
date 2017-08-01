@@ -86,4 +86,9 @@ $(document).ready(function () {
       $('.modal').css('display', 'block');
     });
 
+    $('.modal-bg').click(function() {
+      $('video.video').get(0).pause();
+      $('.modal').css('display', 'none');
+    });
+
 });
