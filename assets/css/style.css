@@ -1927,7 +1927,7 @@ button.boxbutton.boxbutton--dark.open-search {
 
 @media screen and (max-width: 560px) {
   .departments, .features {
-      display: block;
+      /*display: block;*/
   }
 
   .department, .feature {
@@ -1960,7 +1960,7 @@ button.boxbutton.boxbutton--dark.open-search {
 @media screen and (max-width: 800px) {
 
   .department, .feature {
-    width: 45%;
+    /*width: 60%;*/
   }
   .contact-text {
       width: 100%;
