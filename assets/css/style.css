@@ -1165,9 +1165,9 @@ svg {
 }
 
 .content__item-title {
+  display: none;
 	font-size: 1.85em;
 	margin: 0;
-  margin-top: 3em;
 	padding: 0 0 0.5em 0;
 	pointer-events: none;
 	font-weight: normal;
@@ -1192,6 +1192,7 @@ svg {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+  display: block;
 }
 
 .content__item-details {
@@ -1718,6 +1719,12 @@ button.boxbutton.boxbutton--dark.open-search {
     background: #000;
 }
 
+@media screen and (max-width: 1280px) {
+
+    .content__item-title {
+      margin-top: 3em;
+    }
+}
 
 
 @media screen and (max-width: 800px) {
@@ -1746,7 +1753,6 @@ button.boxbutton.boxbutton--dark.open-search {
       form input, form textarea:nth-child(5) {
       height: 50px;
   }
-
 }
 
 
@@ -1855,8 +1861,8 @@ button.boxbutton.boxbutton--dark.open-search {
     }
 
     .content__button {
-        top: 52vh;
-        right: -10px;
+        bottom: 48vh;
+        right: 0;
     }
 
     .content__item-title {
