@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+    <link type="img/svg" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/fonts/slick.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/fonts/slick.eot">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/fonts/slick.eot">
 </head>
 
 <body class="dev">
@@ -36,17 +41,41 @@
                     </ul>
                 </nav>
             </div>
-            <div class="logo-container">
-                <a href="/"><img src="assets/img/logo.png" alt=""></a>
-            </div>
-            <div class="social-icons">
-                <a href="#"><span class="icon--instagram"></span></a>
-                <a href="#"><span class="icon--facebook"></span></a>
-            </div>
+            <div class="top_header"></div>
+            <!--<div class="social-icons">
+                <a href="https://www.instagram.com/jl.arquitectos/" target="_blank"><span class="icon--instagram"></span></a>
+                <a href="https://www.facebook.com/JLPARQUITECTOS/" target="_blank"><span class="icon--facebook"></span></a>
+            </div>-->
         </div>
     </header>
     <div class="main">
-        <section class="section--hero">
+        <section>
+            <div class="top_header">
+                <div class="header_top">
+                    <h2>Providencia 843</h2>
+                    <p>The art of living</p>
+                    <!--<p>Departamentos de 82 a 156 m²</p>-->
+                </div>
+                <!--<div class="icons-nav">
+                    <a href="https://www.instagram.com/jl.arquitectos/" target="_blank"> <img src="./assets/img/facebook.png" alt=""></a>
+                    <a href="https://www.facebook.com/JLPARQUITECTOS/" target="_blank"><img src="./assets/img/instagram.png" alt=""></a>
+                </div>-->
+            </div>
+            <div class="slick-slider js-slick">
+                <div class="photo is-animating" style="background-image: url('https://www.rawson-developers.co.za/assets/images/developers/heros/hero-madison-place-1280x800.jpg');">
+                </div>
+
+                <div class="photo" style="background-image: url('https://www.rawson-developers.co.za/assets/images/developers/heros/hero-the-paragon-1280x800.jpg');">
+                </div>
+
+                <div class="photo" style="background-image: url('https://www.rawson-developers.co.za/assets/images/developers/heros/hero-eighty-two-1280x800.jpg');">
+                </div>
+
+                <div class="photo" style="background-image: url('https://www.rawson-developers.co.za/assets/images/developers/heros/hero-rondebosch-oval-1280x800.jpg');">
+                </div>
+            </div>
+        </section>
+        <!--<section class="section--hero">
             <div class="owl-carousel autoheight">
                 <div class="item">
                     <img src="assets/img/dev-bg.jpg" alt="">
@@ -55,7 +84,7 @@
                     <img src="assets/img/dev-bg.jpg" alt="">
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="section--developments depts">
             <div class="wrapper">
                 <div class="line line--left"></div>
@@ -273,12 +302,15 @@
             </div>
         </section>
         <section class="section--conoce">
-            <div class="wrapper">
+            <div class="wrapper iframe_center">
                 <div class="line line--left"></div>
                 <h2>Conoce</h2>
                 <div class="line line--right"></div>
+                <div class='embed-container wrapper-iframe'>
+                    <iframe src='https://player.vimeo.com/video/223188364?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
                 <div class="button-group">
-                    <a href="#" class="button js-video">Tour virtual <span class="icon--caret"></span></a>
+                    <!--<a href="#" class="button js-video">Tour virtual <span class="icon--caret"></span></a>-->
                     <a href="mapa-1.html" class="button">Vista detallada <span class="icon--view"></span></a>
                 </div>
 
@@ -313,7 +345,7 @@
                                 </svg>
                         </div>
                         <div class="feature__title">
-                            Comedor
+                            3 baños
                         </div>
                     </div>
                     <div class="feature">
@@ -519,37 +551,48 @@
                 </div>
             </div>
         </section>
-        <section class="section--status">
-            <div class="wrapper">
-                <div class="status-carousel">
-                    <div class="owl-carousel">
-                        <div class="item">
-                            <a class="owl-video" href="https://vimeo.com/23924346"><img src="assets/img/video.png" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/video.png" alt="">
+        <section class="section--status disp_flex">
+
+            <!--<div class="wrapper half">
+                <div class="status-content jus_text">
+                    <div>
+                        <div class="line line--left"></div>
+                        <h2>STATUS</h2>
+                        <div class="line line--right"></div>
+                    </div>
+                    <div class="status-carousel">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <a class="owl-video" href="https://vimeo.com/223188364"><img src="assets/img/video.png" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/video.png" alt="">
+                            </div>
                         </div>
                     </div>
+                    <div>
+                        <p>Avances de obra para el desarrollo localizado en Providencia 843
+                        </p>
+                    </div>
                 </div>
-                <div class="status-content jus_text">
-                    <div class="line line--left"></div>
-                    <h2>STATUS</h2>
-                    <div class="line line--right"></div>
-                    <p>Corem ipsum dolor sit amet consecter adipsicing elit sed usm tempor incididunt aret magna aliqua ut dolor enim minim beniaps quis nostru alexercitation ulamco laboris sed bceaoan lorem ipsum adipisic elit do eiusmod tempor ncididuntut labore dolorem agna aliqua sed do eiusmod tempor incididunt.
-                    </p>
-                </div>
+            </div>-->
+
+            <!--<div class="" id="map">
+
+            </div>-->
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.552524283528!2d-99.17180404957465!3d19.388518947048752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff74ec267197%3A0xfdfa9a2354fbc8b8!2sCalle+Providencia+843%2C+Col+del+Valle+Centro%2C+03100+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+Mexico!5e0!3m2!1sen!2s!4v1502911591956" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+
         </section>
-        <section class="disp_flex">
-            <div class="half" id="map"></div>
-            <div class="img_desa"> <img src="./assets/img/dev-bg.jpg" alt=""></div>
-        </section>
+
+
         <footer class="footer">
             <div class="footer-top">
                 <div class="wrapper">
                     <div class="social">
-                        <a href="#"><span class="icon--instagram"></span></a>
-                        <a href="#"><span class="icon--facebook"></span></a>
+                        <a href="https://www.instagram.com/jl.arquitectos/" target="_blank"><span class="icon--instagram"></span></a>
+                        <a href="https://www.facebook.com/JLPARQUITECTOS/" target="_blank"><span class="icon--facebook"></span></a>
                     </div>
                     <div class="logo-container">
                         <a href="/"><img src="assets/img/logo.png" alt=""></a>
@@ -569,7 +612,7 @@
         <div class="modal">
             <div class="modal-bg"></div>
             <div class="modal-content">
-                <video class="video" src="https://13-lvl3-pdl.vimeocdn.com/01/2113/3/85569724/224036863.mp4?expires=1501571556&token=09c47395dbbba124b4b67" type="video/"></video>
+                <video class="video" src="https://vimeo.com/223188364" type="video/"></video>
             </div>
         </div>
     </div>
@@ -732,6 +775,34 @@
 
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYtKue8E1djlCMrIVsT3DemhYxu0p1hWs&callback=initMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.js-slick').slick({
+                autoplay: true,
+                autoplaySpeed: 1000,
+                dots: false,
+                draggable: true,
+                arrows: false,
+                speed: 1000
+            });
+
+            $('.js-slick').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                $(slick.$slides).removeClass('is-animating');
+            });
+
+            $('.js-slick').on('afterChange', function(event, slick, currentSlide, nextSlide) {
+                $(slick.$slides.get(currentSlide)).addClass('is-animating');
+            });
+        });
+
+    </script>
+
+
+
 </body>
 
 </html>
