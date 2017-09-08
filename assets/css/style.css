@@ -24,6 +24,9 @@ body {
 .wrapper-iframe {
     max-width: 40%;
     margin: 0 auto;
+    -webkit-box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
+-moz-box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
+box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
 }
 
 .wrapper:after {
@@ -316,7 +319,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative
+    position: relative;
+        top: -70px;
+
 }
 
 .dev .section--hero {
@@ -330,7 +335,7 @@ footer {
 
 .section--developments {
     background: #27292e;
-    margin: 1.5em 0 0 0;
+
     padding: 2.5em 0;
     overflow: hidden;
 }
@@ -477,7 +482,7 @@ span.development__price {
 }
 
 .contact-text {
-    width: 44%;
+    width: 41%;
     display: inline-block;
     margin-right: 1%;
     text-align: inherit
@@ -533,11 +538,11 @@ form input {
 }
 
 .input--half {
-    width: 48%;
+    width: 49%;
 }
 
 .input--half:nth-child(2) {
-    margin-right: 15px;
+    margin-right: 3px;
 }
 
 ::-webkit-input-placeholder {
@@ -2921,4 +2926,23 @@ li {
     .section--hero .logo_abs {
         display: none
     }
+}
+
+.font_status {
+    font-weight: 100;
+    color: white
+}
+
+.sepa {
+    height: 30px;
+    background-color: #27292e
+}
+
+
+
+img.plan_scale {
+-webkit-box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
+-moz-box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
+box-shadow: 0px 20px 49px -21px rgba(0,0,0,1);
+
 }
