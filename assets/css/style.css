@@ -402,11 +402,13 @@ h2 {
 .developments {
     display: -webkit-flex;
     display: flex;
-    justify-content: center;
-    -webkit-justify-content: center;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
     margin-top: 50px;
     position: relative;
     z-index: 9;
+    max-width: 1000px;
+    margin: 50px auto 0px auto;
 }
 
 a.development {
@@ -423,7 +425,9 @@ a.development.uno {
 }
 
 a.development.dos {
-    background: url(../img/propiedad-2.png) no-repeat;
+    background: url(../img/rebsamen/slider3.jpg) no-repeat;
+
+
 }
 
 a.development.tres {
